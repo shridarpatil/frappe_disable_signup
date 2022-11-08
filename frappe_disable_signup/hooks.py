@@ -186,5 +186,6 @@ app_license = "MIT"
 doc_events = {
     "User": {
         "before_insert": "frappe_disable_signup.frappe_disable_signup.doctype.disable_signup_domains.disable_signup_domains.validate",
+        "before_save": "frappe_disable_signup.frappe_disable_signup.doctype.disable_signup_domains.disable_signup_domains.validate",
     }
 }
