@@ -1,6 +1,6 @@
 ## Frappe Disable Signup
 
-signup for specific domains
+disable signup for specific domains
 
 ## Installation Steps
 ### Step 1) One time to get app
